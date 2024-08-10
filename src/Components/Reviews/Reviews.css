@@ -1,0 +1,39 @@
+#reviews-section {
+  color: #ffff;
+  position: relative;
+  background-color: #2d2e32;
+}
+.carousel-indicators {
+  position: relative;
+  margin: 0;
+}
+
+.asset-5 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  left: 12%;
+}
+.asset-5 img {
+  border-radius: 50px;
+  width: 36%;
+}
+.black-review-img {
+  width: 100%;
+}
+.commas-img {
+  width: 13%;
+}
+
+@media screen and (max-width: 988px) {
+  .black-review-img {
+    position: relative;
+    translate: 28%;
+  }
+  .black-review-img img {
+    width: 40%;
+  }
+  .asset-5 {
+    translate: 20% -25%;
+  }
+}

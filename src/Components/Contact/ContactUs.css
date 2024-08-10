@@ -1,0 +1,45 @@
+#contact-us-section {
+  background-color: #2d2e32;
+}
+#contact-us-section input,
+#contact-us-section textarea {
+  background-color: #25262a;
+  color: #ffff !important;
+  border: 1px solid #58d797;
+}
+#contact-us-section input::placeholder,
+#contact-us-section textarea::placeholder {
+  color: #ffff !important;
+}
+.contact-us-head {
+  font-size: 38px;
+  font-weight: 600;
+}
+.contact-us-content {
+  font-size: 18px;
+  font-weight: 300;
+}
+.contact-us-icon {
+  background-color: #25262a;
+  padding: 34px;
+  clip-path: circle(39% at 50% 48%);
+  transition: all 0.5s ease;
+}
+.contact-us-icon:hover {
+  background-color: #fecd1a;
+}
+.contact-us-icon:hover .main-icon {
+  color: #25262a;
+}
+.contac-us-sub {
+  display: flex;
+}
+.main-icon {
+  font-size: 32px;
+  color: #58d797;
+  transition: all 0.5s ease;
+}
+.contact-us-main h3 {
+  font-size: 24px;
+  font-weight: 600;
+}

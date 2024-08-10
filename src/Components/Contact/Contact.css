@@ -1,0 +1,32 @@
+#contact {
+  background-color: #2d2e32;
+  position: relative;
+  overflow: hidden;
+}
+.contact-content {
+  background-color: #25262a;
+  padding: 0 10%;
+  margin: 0px 10px;
+  overflow: hidden;
+}
+.outline .ai {
+  transform: scaleX(5);
+  font-size: 2rem;
+  color: #228b22;
+}
+
+.hollow-contact-img {
+  width: 89px;
+  position: relative;
+  right: -107%;
+  bottom: -20px;
+}
+.yellow-contact-img {
+  width: 123px;
+  height: 114px;
+  clip-path: circle(50% at 44% 43%);
+  background-color: #5de4a0;
+  position: relative;
+  top: -38px;
+  left: -143px;
+}

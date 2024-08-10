@@ -1,0 +1,18 @@
+.footer-icon {
+  color: #ffcb1c;
+  transition: all 0.5s ease;
+}
+.footer-div {
+  padding: 20px 5px;
+  background-color: #2d2e32;
+  margin: 0px 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.footer-div:hover {
+  background-color: #ffcb1c;
+}
+.footer-div:hover .footer-icon {
+  color: #2d2e32;
+}

@@ -1,0 +1,58 @@
+#work-section {
+  background-color: #2d2e32;
+  position: relative;
+}
+
+.work-cards {
+  padding: 11%;
+  z-index: 1000;
+  border-radius: 0;
+  transition: all 0.5s ease !important;
+  width: 100%;
+}
+
+.work-cards h5 {
+  font-size: 87px;
+  font-weight: 600;
+  color: #2ec77a;
+}
+.work-cards p {
+  font-size: 20px;
+  width: 100%;
+}
+
+.work-cards:hover h5 {
+  color: white;
+}
+
+.cardNum-1 {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.cardNum-4 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.hollow-img {
+  width: 123px;
+  position: absolute;
+  right: -92%;
+  transition: transform 0.8s ease;
+}
+.hollow-img img {
+  filter: brightness(100%) sepia(100%) hue-rotate(30deg);
+}
+.yellow-img {
+  position: absolute;
+  width: 123px;
+  bottom: 8%;
+  height: 123px;
+  clip-path: circle(50% at 50% 50%);
+  background-color: yellow;
+  left: -100%;
+  transition: transform 0.8s ease;
+}
